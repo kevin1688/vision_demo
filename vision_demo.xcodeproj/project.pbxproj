@@ -11,6 +11,20 @@
 		66B461F7295AA6F4007AB59F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B461F6295AA6F4007AB59F /* ContentView.swift */; };
 		66B461F9295AA6F5007AB59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B461F8295AA6F5007AB59F /* Assets.xcassets */; };
 		66B461FC295AA6F5007AB59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B461FB295AA6F5007AB59F /* Preview Assets.xcassets */; };
+		66B46204296BE658007AB59F /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B46203296BE658007AB59F /* CameraError.swift */; };
+		66B46206296BE68D007AB59F /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B46205296BE68D007AB59F /* CameraManager.swift */; };
+		66B46208296C2C03007AB59F /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B46207296C2C03007AB59F /* FrameManager.swift */; };
+		66B4620B296C2D0B007AB59F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4620A296C2D0B007AB59F /* ContentViewModel.swift */; };
+		66B4620E296C2D55007AB59F /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4620D296C2D55007AB59F /* CGImageExtension.swift */; };
+		66B46210296C2E42007AB59F /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4620F296C2E42007AB59F /* FrameView.swift */; };
+		66B46213296C5896007AB59F /* HandPose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B46212296C5896007AB59F /* HandPose.swift */; };
+		66B46215296C58C2007AB59F /* Finger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B46214296C58C2007AB59F /* Finger.swift */; };
+		66B46217296C58F4007AB59F /* BodyPose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B46216296C58F4007AB59F /* BodyPose.swift */; };
+		66B46219296C5E40007AB59F /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B46218296C5E40007AB59F /* CameraView.swift */; };
+		66B4621B296C5E9A007AB59F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4621A296C5E9A007AB59F /* CameraViewController.swift */; };
+		66B4621D296C5EDE007AB59F /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4621C296C5EDE007AB59F /* CameraPreview.swift */; };
+		66B4621F296C5FCA007AB59F /* FingersOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4621E296C5FCA007AB59F /* FingersOverlay.swift */; };
+		66B46223296C61E6007AB59F /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B46222296C61E6007AB59F /* CameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,21 @@
 		66B461F6295AA6F4007AB59F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66B461F8295AA6F5007AB59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66B461FB295AA6F5007AB59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66B46203296BE658007AB59F /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		66B46205296BE68D007AB59F /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		66B46207296C2C03007AB59F /* FrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		66B4620A296C2D0B007AB59F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		66B4620D296C2D55007AB59F /* CGImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
+		66B4620F296C2E42007AB59F /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		66B46212296C5896007AB59F /* HandPose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandPose.swift; sourceTree = "<group>"; };
+		66B46214296C58C2007AB59F /* Finger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finger.swift; sourceTree = "<group>"; };
+		66B46216296C58F4007AB59F /* BodyPose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPose.swift; sourceTree = "<group>"; };
+		66B46218296C5E40007AB59F /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		66B4621A296C5E9A007AB59F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		66B4621C296C5EDE007AB59F /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		66B4621E296C5FCA007AB59F /* FingersOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingersOverlay.swift; sourceTree = "<group>"; };
+		66B46222296C61E6007AB59F /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		66B46224296C65CA007AB59F /* vision-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "vision-demo-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +80,19 @@
 		66B461F3295AA6F4007AB59F /* vision_demo */ = {
 			isa = PBXGroup;
 			children = (
+				66B46224296C65CA007AB59F /* vision-demo-Info.plist */,
+				66B46211296C5874007AB59F /* HandPose */,
+				66B4620C296C2D2D007AB59F /* Extensions */,
+				66B46209296C2CD8007AB59F /* ViewModels */,
+				66B46202296BE608007AB59F /* Camera */,
 				66B461F4295AA6F4007AB59F /* vision_demoApp.swift */,
 				66B461F6295AA6F4007AB59F /* ContentView.swift */,
 				66B461F8295AA6F5007AB59F /* Assets.xcassets */,
 				66B461FA295AA6F5007AB59F /* Preview Content */,
+				66B4620F296C2E42007AB59F /* FrameView.swift */,
+				66B46216296C58F4007AB59F /* BodyPose.swift */,
+				66B4621E296C5FCA007AB59F /* FingersOverlay.swift */,
+				66B46222296C61E6007AB59F /* CameraViewController.xib */,
 			);
 			path = vision_demo;
 			sourceTree = "<group>";
@@ -65,6 +103,44 @@
 				66B461FB295AA6F5007AB59F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66B46202296BE608007AB59F /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				66B46203296BE658007AB59F /* CameraError.swift */,
+				66B46205296BE68D007AB59F /* CameraManager.swift */,
+				66B46207296C2C03007AB59F /* FrameManager.swift */,
+				66B46218296C5E40007AB59F /* CameraView.swift */,
+				66B4621A296C5E9A007AB59F /* CameraViewController.swift */,
+				66B4621C296C5EDE007AB59F /* CameraPreview.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		66B46209296C2CD8007AB59F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				66B4620A296C2D0B007AB59F /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		66B4620C296C2D2D007AB59F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66B4620D296C2D55007AB59F /* CGImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		66B46211296C5874007AB59F /* HandPose */ = {
+			isa = PBXGroup;
+			children = (
+				66B46212296C5896007AB59F /* HandPose.swift */,
+				66B46214296C58C2007AB59F /* Finger.swift */,
+			);
+			path = HandPose;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B46223296C61E6007AB59F /* CameraViewController.xib in Resources */,
 				66B461FC295AA6F5007AB59F /* Preview Assets.xcassets in Resources */,
 				66B461F9295AA6F5007AB59F /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +214,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B46210296C2E42007AB59F /* FrameView.swift in Sources */,
+				66B4621F296C5FCA007AB59F /* FingersOverlay.swift in Sources */,
+				66B46208296C2C03007AB59F /* FrameManager.swift in Sources */,
 				66B461F7295AA6F4007AB59F /* ContentView.swift in Sources */,
+				66B4621D296C5EDE007AB59F /* CameraPreview.swift in Sources */,
+				66B46219296C5E40007AB59F /* CameraView.swift in Sources */,
+				66B4621B296C5E9A007AB59F /* CameraViewController.swift in Sources */,
+				66B4620E296C2D55007AB59F /* CGImageExtension.swift in Sources */,
+				66B46217296C58F4007AB59F /* BodyPose.swift in Sources */,
+				66B46215296C58C2007AB59F /* Finger.swift in Sources */,
+				66B4620B296C2D0B007AB59F /* ContentViewModel.swift in Sources */,
 				66B461F5295AA6F4007AB59F /* vision_demoApp.swift in Sources */,
+				66B46206296BE68D007AB59F /* CameraManager.swift in Sources */,
+				66B46204296BE658007AB59F /* CameraError.swift in Sources */,
+				66B46213296C5896007AB59F /* HandPose.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +360,8 @@
 				DEVELOPMENT_TEAM = ELR2YX4DKY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "vision-demo-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs the camera to filter the world";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +390,8 @@
 				DEVELOPMENT_TEAM = ELR2YX4DKY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "vision-demo-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs the camera to filter the world";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
